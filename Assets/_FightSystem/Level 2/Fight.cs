@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Diagnostics;
 
 namespace _2023_GC_A2_Partiel_POO.Level_2
 {
@@ -7,6 +8,10 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
     {
         public Fight(Character character1, Character character2)
         {
+            //Guard
+            if (character1 == null) throw new ArgumentNullException("character1", "This variable is null");
+            if (character2 == null) throw new ArgumentNullException("character2", "This variable is null");
+
             Character1 = character1;
             Character2 = character2;
         }
@@ -16,7 +21,7 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         /// <summary>
         /// Est-ce la condition de victoire/défaite a été rencontré ?
         /// </summary>
-        public bool IsFightFinished => throw new NotImplementedException();
+        public bool IsFightFinished => Character1.CurrentHealth <= 0 || Character2.CurrentHealth <= 0;
 
         /// <summary>
         /// Jouer l'enchainement des attaques. Attention à bien gérer l'ordre des attaques par apport à la speed des personnages
@@ -26,7 +31,45 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         /// <exception cref="ArgumentNullException">si une des deux attaques est null</exception>
         public void ExecuteTurn(Skill skillFromCharacter1, Skill skillFromCharacter2)
         {
-            throw new NotImplementedException();
+            if(Character1.Speed >  Character2.Speed)
+            {
+                Character2.ReceiveAttack(skillFromCharacter1, Character1);
+                if (!IsFightFinished)
+                {
+                    Character1.ReceiveAttack(skillFromCharacter2, Character2);
+                }
+            } else if(Character1.Speed == Character2.Speed)
+            {
+                switch(UnityEngine.Random.Range(0, 2))
+                {
+                    case 0:
+                    default:
+                        Character2.ReceiveAttack(skillFromCharacter1, Character1);
+                        if (!IsFightFinished)
+                        {
+                            Character1.ReceiveAttack(skillFromCharacter2, Character2);
+                        }
+                        break;
+                    case 1:
+                        Character1.ReceiveAttack(skillFromCharacter2, Character2);
+                        if (!IsFightFinished)
+                        {
+                            Character2.ReceiveAttack(skillFromCharacter1, Character1);
+                        }
+                        break;
+                } 
+            } else if (Character1.Speed < Character2.Speed)
+            {
+                UnityEngine.Debug.Log(Character1.CurrentHealth);
+                UnityEngine.Debug.Log(Character2.CurrentHealth);
+                Character1.ReceiveAttack(skillFromCharacter2, Character2);
+                UnityEngine.Debug.Log(Character1.CurrentHealth);
+                UnityEngine.Debug.Log(Character2.CurrentHealth);
+                if (!IsFightFinished)
+                {
+                    Character2.ReceiveAttack(skillFromCharacter1, Character1);
+                }
+            }
         }
 
     }

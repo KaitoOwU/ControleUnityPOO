@@ -36,4 +36,11 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
     {
         public MagicalGrass() : base(TYPE.NORMAL, 70, StatusPotential.SLEEP) { }
     }
+    /// <summary>
+    /// Attaque normale qui augmente le status CRAZEY
+    /// </summary>
+    public class Supersonic : Skill
+    {
+        public Supersonic() : base(TYPE.NORMAL, 0, StatusPotential.CRAZY) { }
+    }
 }
