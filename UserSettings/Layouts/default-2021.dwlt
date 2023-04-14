@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 42
+  controlID: 16
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -121,8 +121,8 @@ MonoBehaviour:
     y: 556
     width: 1466
     height: 383
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 13}
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 43
+  controlID: 104
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 44
+  controlID: 105
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 1103
     height: 556
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -390,7 +390,7 @@ MonoBehaviour:
       name: A2 POO
       fullName: A2 POO
       resultStatus: 2
-      duration: 0.3534345
+      duration: 0.2566881
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -406,7 +406,7 @@ MonoBehaviour:
       name: Tests.dll
       fullName: C:/Users/adves/Documents/Unity Projects/ControleUnityPOO/ControleUnityPOO/Library/ScriptAssemblies/Tests.dll
       resultStatus: 2
-      duration: 0.3303529
+      duration: 0.2413156
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -422,7 +422,7 @@ MonoBehaviour:
       name: _2023_GC_A2_Partiel_POO
       fullName: _2023_GC_A2_Partiel_POO
       resultStatus: 2
-      duration: 0.3289972
+      duration: 0.2396462
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -438,7 +438,7 @@ MonoBehaviour:
       name: Tests
       fullName: _2023_GC_A2_Partiel_POO.Tests
       resultStatus: 2
-      duration: 0.3280208
+      duration: 0.2382402
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -454,7 +454,7 @@ MonoBehaviour:
       name: Level_1
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1
       resultStatus: 2
-      duration: 0.2921908
+      duration: 0.1996327
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -470,7 +470,7 @@ MonoBehaviour:
       name: MyArrayTests
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests
       resultStatus: 2
-      duration: 0.0686101
+      duration: 0.0774273
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -486,7 +486,7 @@ MonoBehaviour:
       name: AddElementInArray
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray
       resultStatus: 2
-      duration: 0.0156449
+      duration: 0.0073453
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -502,7 +502,7 @@ MonoBehaviour:
       name: AddElementInArray(System.Int32[],12,System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray(System.Int32[],12,System.Int32[])
       resultStatus: 2
-      duration: 0.0066317
+      duration: 0.0044231
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -527,7 +527,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray(System.Int32[],12,System.Int32[]
         GeneratedTestCase2)
       resultStatus: 2
-      duration: 0.000112
+      duration: 0.0001752
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -551,7 +551,7 @@ MonoBehaviour:
       name: AddElementInArrayNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArrayNullCheck
       resultStatus: 2
-      duration: 0.0140476
+      duration: 0.0292151
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -567,7 +567,7 @@ MonoBehaviour:
       name: AddElementInArrayNullCheck(null,12)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArrayNullCheck(null,12)
       resultStatus: 2
-      duration: 0.0072215
+      duration: 0.0239075
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass1_0.<AddElementInArrayNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -594,7 +594,7 @@ MonoBehaviour:
       name: ConcatArrays
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays
       resultStatus: 2
-      duration: 0.0062987
+      duration: 0.0076758
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -610,7 +610,7 @@ MonoBehaviour:
       name: ConcatArrays(System.Int32[],System.Int32[],System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays(System.Int32[],System.Int32[],System.Int32[])
       resultStatus: 2
-      duration: 0.0003492
+      duration: 0.0005735
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -635,7 +635,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays(System.Int32[],System.Int32[],System.Int32[]
         GeneratedTestCase2)
       resultStatus: 2
-      duration: 0.0001022
+      duration: 0.0001255
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -660,7 +660,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays(System.Int32[],System.Int32[],System.Int32[]
         GeneratedTestCase3)
       resultStatus: 2
-      duration: 0.0000907
+      duration: 0.0001043
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -684,7 +684,7 @@ MonoBehaviour:
       name: ConcatArraysNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck
       resultStatus: 2
-      duration: 0.0050281
+      duration: 0.0066644
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -700,7 +700,7 @@ MonoBehaviour:
       name: ConcatArraysNullCheck(System.Int32[],null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck(System.Int32[],null)
       resultStatus: 2
-      duration: 0.0004937
+      duration: 0.0007688
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass3_0.<ConcatArraysNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -727,7 +727,7 @@ MonoBehaviour:
       name: ConcatArraysNullCheck(null,System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck(null,System.Int32[])
       resultStatus: 2
-      duration: 0.0002798
+      duration: 0.0002303
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass3_0.<ConcatArraysNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -754,7 +754,7 @@ MonoBehaviour:
       name: ConcatArraysNullCheck(null,null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck(null,null)
       resultStatus: 2
-      duration: 0.0002247
+      duration: 0.0002022
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass3_0.<ConcatArraysNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -781,7 +781,7 @@ MonoBehaviour:
       name: RemoveElementInArray
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray
       resultStatus: 2
-      duration: 0.0067235
+      duration: 0.0064073
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -797,7 +797,7 @@ MonoBehaviour:
       name: RemoveElementInArray(System.Int32[],1,System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],1,System.Int32[])
       resultStatus: 2
-      duration: 0.0003095
+      duration: 0.0003294
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -821,7 +821,7 @@ MonoBehaviour:
       name: RemoveElementInArray(System.Int32[],2,System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],2,System.Int32[])
       resultStatus: 2
-      duration: 0.0001116
+      duration: 0.0001217
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -845,7 +845,7 @@ MonoBehaviour:
       name: RemoveElementInArray(System.Int32[],3,System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],3,System.Int32[])
       resultStatus: 2
-      duration: 0.0001079
+      duration: 0.000106
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -869,7 +869,7 @@ MonoBehaviour:
       name: RemoveElementInArray(System.Int32[],4,System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],4,System.Int32[])
       resultStatus: 2
-      duration: 0.0001058
+      duration: 0.0001001
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -893,7 +893,7 @@ MonoBehaviour:
       name: RemoveElementInArrayNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArrayNullCheck
       resultStatus: 2
-      duration: 0.0044294
+      duration: 0.0046585
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -909,7 +909,7 @@ MonoBehaviour:
       name: RemoveElementInArrayNullCheck(null,1)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArrayNullCheck(null,1)
       resultStatus: 2
-      duration: 0.0006606
+      duration: 0.0004441
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass5_0.<RemoveElementInArrayNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -936,7 +936,7 @@ MonoBehaviour:
       name: RemoveElementsInArray
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray
       resultStatus: 2
-      duration: 0.0045761
+      duration: 0.0062462
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -952,7 +952,7 @@ MonoBehaviour:
       name: RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[])
       resultStatus: 2
-      duration: 0.0002542
+      duration: 0.0003726
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -977,7 +977,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[]
         GeneratedTestCase2)
       resultStatus: 2
-      duration: 0.0001032
+      duration: 0.000145
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1002,7 +1002,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[]
         GeneratedTestCase3)
       resultStatus: 2
-      duration: 0.0000978
+      duration: 0.000102
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1027,7 +1027,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[]
         GeneratedTestCase4)
       resultStatus: 2
-      duration: 0.0000995
+      duration: 0.0001008
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1051,7 +1051,7 @@ MonoBehaviour:
       name: RemoveElementsInArrayNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck
       resultStatus: 2
-      duration: 0.0053745
+      duration: 0.0065226
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1067,7 +1067,7 @@ MonoBehaviour:
       name: RemoveElementsInArrayNullCheck(null,System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck(null,System.Int32[])
       resultStatus: 2
-      duration: 0.0004825
+      duration: 0.000475
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass7_0.<RemoveElementsInArrayNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -1094,7 +1094,7 @@ MonoBehaviour:
       name: RemoveElementsInArrayNullCheck(System.Int32[],null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck(System.Int32[],null)
       resultStatus: 2
-      duration: 0.0002162
+      duration: 0.0002741
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass7_0.<RemoveElementsInArrayNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -1121,7 +1121,7 @@ MonoBehaviour:
       name: RemoveElementsInArrayNullCheck(null,null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck(null,null)
       resultStatus: 2
-      duration: 0.000203
+      duration: 0.0002479
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass7_0.<RemoveElementsInArrayNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -1148,7 +1148,7 @@ MonoBehaviour:
       name: MyMathsTests
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests
       resultStatus: 2
-      duration: 0.1771708
+      duration: 0.0602627
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1164,7 +1164,7 @@ MonoBehaviour:
       name: AbsoluteTest
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest
       resultStatus: 2
-      duration: 0.0011002
+      duration: 0.0022287
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1180,7 +1180,7 @@ MonoBehaviour:
       name: AbsoluteTest(1,1)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest(1,1)
       resultStatus: 2
-      duration: 0.0002979
+      duration: 0.0003489
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1204,7 +1204,7 @@ MonoBehaviour:
       name: AbsoluteTest(-11,11)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest(-11,11)
       resultStatus: 2
-      duration: 0.0001065
+      duration: 0.0002154
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1228,7 +1228,7 @@ MonoBehaviour:
       name: AbsoluteTest(0,0)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest(0,0)
       resultStatus: 2
-      duration: 0.0000934
+      duration: 0.000147
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1252,7 +1252,7 @@ MonoBehaviour:
       name: AverageTest
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest
       resultStatus: 2
-      duration: 0.0046107
+      duration: 0.0063476
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1268,7 +1268,7 @@ MonoBehaviour:
       name: AverageTest(System.Int32[],2,2)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest(System.Int32[],2,2)
       resultStatus: 2
-      duration: 0.0003801
+      duration: 0.0007536
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1292,7 +1292,7 @@ MonoBehaviour:
       name: AverageTest(System.Int32[],46.1f,46.2f)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest(System.Int32[],46.1f,46.2f)
       resultStatus: 2
-      duration: 0.0001029
+      duration: 0.0001579
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1316,7 +1316,7 @@ MonoBehaviour:
       name: AverageTestEmptyInput
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestEmptyInput
       resultStatus: 2
-      duration: 0.0059774
+      duration: 0.0055205
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1332,7 +1332,7 @@ MonoBehaviour:
       name: AverageTestEmptyInput(System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestEmptyInput(System.Int32[])
       resultStatus: 2
-      duration: 0.0005979
+      duration: 0.0007772
       messages: "  Expected: <System.ArgumentException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests+<>c__DisplayClass7_0.<AverageTestEmptyInput>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -1358,7 +1358,7 @@ MonoBehaviour:
       name: AverageTestNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestNullCheck
       resultStatus: 2
-      duration: 0.0047261
+      duration: 0.0057283
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1374,7 +1374,7 @@ MonoBehaviour:
       name: AverageTestNullCheck(null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestNullCheck(null)
       resultStatus: 2
-      duration: 0.0004884
+      duration: 0.0005112
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests+<>c__DisplayClass6_0.<AverageTestNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -1400,7 +1400,7 @@ MonoBehaviour:
       name: CeilTest
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
       resultStatus: 2
-      duration: 0.0051737
+      duration: 0.0065065
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1416,7 +1416,7 @@ MonoBehaviour:
       name: CeilTest(1.0f,1)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(1.0f,1)
       resultStatus: 2
-      duration: 0.0003762
+      duration: 0.0005651
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1440,7 +1440,7 @@ MonoBehaviour:
       name: CeilTest(2.2f,3)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(2.2f,3)
       resultStatus: 2
-      duration: 0.0001053
+      duration: 0.0001505
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1464,7 +1464,7 @@ MonoBehaviour:
       name: CeilTest(3.5f,4)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(3.5f,4)
       resultStatus: 2
-      duration: 0.0000931
+      duration: 0.0001463
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1488,7 +1488,7 @@ MonoBehaviour:
       name: CeilTest(4.6f,5)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(4.6f,5)
       resultStatus: 2
-      duration: 0.0000897
+      duration: 0.0001749
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1512,7 +1512,7 @@ MonoBehaviour:
       name: CeilTest(5.9f,6)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(5.9f,6)
       resultStatus: 2
-      duration: 0.0000883
+      duration: 0.0001531
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1536,7 +1536,7 @@ MonoBehaviour:
       name: ClampTest
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest
       resultStatus: 2
-      duration: 0.0050744
+      duration: 0.0105719
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1552,7 +1552,7 @@ MonoBehaviour:
       name: ClampTest(5,1,10,5)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest(5,1,10,5)
       resultStatus: 2
-      duration: 0.0004421
+      duration: 0.0004462
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1576,7 +1576,7 @@ MonoBehaviour:
       name: ClampTest(50,1,10,10)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest(50,1,10,10)
       resultStatus: 2
-      duration: 0.0001303
+      duration: 0.0002088
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1600,7 +1600,7 @@ MonoBehaviour:
       name: ClampTest(-50,1,10,1)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest(-50,1,10,1)
       resultStatus: 2
-      duration: 0.0002148
+      duration: 0.0001462
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1624,7 +1624,7 @@ MonoBehaviour:
       name: FloorTest
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest
       resultStatus: 2
-      duration: 0.0045765
+      duration: 0.0089861
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1640,7 +1640,7 @@ MonoBehaviour:
       name: FloorTest(1.0f,1)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(1.0f,1)
       resultStatus: 2
-      duration: 0.0002598
+      duration: 0.0003051
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1664,7 +1664,7 @@ MonoBehaviour:
       name: FloorTest(2.2f,2)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(2.2f,2)
       resultStatus: 2
-      duration: 0.0001061
+      duration: 0.0001954
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1688,7 +1688,7 @@ MonoBehaviour:
       name: FloorTest(3.5f,3)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(3.5f,3)
       resultStatus: 2
-      duration: 0.0000929
+      duration: 0.000146
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1712,7 +1712,7 @@ MonoBehaviour:
       name: FloorTest(4.6f,4)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(4.6f,4)
       resultStatus: 2
-      duration: 0.0000926
+      duration: 0.000101
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1736,7 +1736,7 @@ MonoBehaviour:
       name: FloorTest(5.9f,5)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(5.9f,5)
       resultStatus: 2
-      duration: 0.0000892
+      duration: 0.000144
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1760,7 +1760,7 @@ MonoBehaviour:
       name: RoundTest
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest
       resultStatus: 2
-      duration: 0.005228
+      duration: 0.0074939
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1776,7 +1776,7 @@ MonoBehaviour:
       name: RoundTest(1.0f,1)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(1.0f,1)
       resultStatus: 2
-      duration: 0.0003807
+      duration: 0.0003595
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1800,7 +1800,7 @@ MonoBehaviour:
       name: RoundTest(2.2f,2)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(2.2f,2)
       resultStatus: 2
-      duration: 0.0001081
+      duration: 0.0001248
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1824,7 +1824,7 @@ MonoBehaviour:
       name: RoundTest(3.49f,3)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(3.49f,3)
       resultStatus: 2
-      duration: 0.0001107
+      duration: 0.0001147
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1848,7 +1848,7 @@ MonoBehaviour:
       name: RoundTest(3.5f,4)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(3.5f,4)
       resultStatus: 2
-      duration: 0.0000963
+      duration: 0.0001064
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1872,7 +1872,7 @@ MonoBehaviour:
       name: RoundTest(4.6f,5)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(4.6f,5)
       resultStatus: 2
-      duration: 0.0001067
+      duration: 0.0001104
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1896,7 +1896,7 @@ MonoBehaviour:
       name: RoundTest(5.9f,6)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(5.9f,6)
       resultStatus: 2
-      duration: 0.0000943
+      duration: 0.0001148
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1920,7 +1920,7 @@ MonoBehaviour:
       name: StringTests
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests
       resultStatus: 2
-      duration: 0.0421859
+      duration: 0.0579941
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1936,7 +1936,7 @@ MonoBehaviour:
       name: BasicReplacement
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
       resultStatus: 2
-      duration: 0.0028466
+      duration: 0.0032396
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1954,7 +1954,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hello
         {name}","Bidule","Hello Bidule")
       resultStatus: 2
-      duration: 0.0006382
+      duration: 0.0003004
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -1980,7 +1980,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hello
         {name}","","Hello ")
       resultStatus: 2
-      duration: 0.0002452
+      duration: 0.0001294
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -2006,7 +2006,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hel{name}lo
         {name}","Bidule","HelBidulelo Bidule")
       resultStatus: 2
-      duration: 0.0001471
+      duration: 0.0001232
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -2032,7 +2032,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("{name}
         come in","Bidule","Bidule come in")
       resultStatus: 2
-      duration: 0.0001456
+      duration: 0.000122
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -2058,7 +2058,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hello
         you","Bidule","Hello you")
       resultStatus: 2
-      duration: 0.0001027
+      duration: 0.0001158
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -2082,7 +2082,7 @@ MonoBehaviour:
       name: BasicReplacementNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck
       resultStatus: 2
-      duration: 0.0050916
+      duration: 0.006482
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -2100,7 +2100,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck("Hello
         {name}",null)
       resultStatus: 2
-      duration: 0.0005577
+      duration: 0.0006535
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass1_0.<BasicReplacementNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2127,7 +2127,7 @@ MonoBehaviour:
       name: BasicReplacementNullCheck(null,"Bidule")
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck(null,"Bidule")
       resultStatus: 2
-      duration: 0.0002325
+      duration: 0.0002605
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass1_0.<BasicReplacementNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2154,7 +2154,7 @@ MonoBehaviour:
       name: BasicReplacementNullCheck(null,null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck(null,null)
       resultStatus: 2
-      duration: 0.0002146
+      duration: 0.0002313
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass1_0.<BasicReplacementNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2181,7 +2181,7 @@ MonoBehaviour:
       name: BasicReplacementWithGivenTag
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
       resultStatus: 2
-      duration: 0.0052783
+      duration: 0.0077009
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -2200,7 +2200,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
         {name}","{name}","Bidule","Hello Bidule")
       resultStatus: 2
-      duration: 0.0003703
+      duration: 0.0004275
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -2226,7 +2226,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
         {name}","{name}","","Hello ")
       resultStatus: 2
-      duration: 0.0001057
+      duration: 0.0001979
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -2253,7 +2253,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
         {insert name}","{insert name}","Bidule","Hello Bidule")
       resultStatus: 2
-      duration: 0.0000927
+      duration: 0.0001219
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -2279,7 +2279,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
         ","{name}","Bidule","Hello ")
       resultStatus: 2
-      duration: 0.000095
+      duration: 0.0001184
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -2305,7 +2305,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
         [nom]","[name]","Bidule","Hello [nom]")
       resultStatus: 2
-      duration: 0.0000911
+      duration: 0.0001168
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -2332,7 +2332,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("oh
         bah c'est des gamerz","a","@","oh b@h c'est des g@merz")
       resultStatus: 2
-      duration: 0.0000916
+      duration: 0.0001147
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -2356,7 +2356,7 @@ MonoBehaviour:
       name: BasicReplacementWithGivenTagNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
       resultStatus: 2
-      duration: 0.0062384
+      duration: 0.0082124
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -2372,7 +2372,7 @@ MonoBehaviour:
       name: BasicReplacementWithGivenTagNullCheck(null,"{name}","Bidule")
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,"{name}","Bidule")
       resultStatus: 2
-      duration: 0.0006066
+      duration: 0.000536
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2401,7 +2401,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck("Hello
         {name}",null,"Bidule")
       resultStatus: 2
-      duration: 0.0002239
+      duration: 0.0002247
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2430,7 +2430,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck("Hello
         {name}","{name}",null)
       resultStatus: 2
-      duration: 0.0002057
+      duration: 0.0002209
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2457,7 +2457,7 @@ MonoBehaviour:
       name: BasicReplacementWithGivenTagNullCheck(null,null,"Bidule")
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,null,"Bidule")
       resultStatus: 2
-      duration: 0.0002264
+      duration: 0.0002151
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2486,7 +2486,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck("Hello
         {name}",null,null)
       resultStatus: 2
-      duration: 0.0001939
+      duration: 0.0002415
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2513,7 +2513,7 @@ MonoBehaviour:
       name: BasicReplacementWithGivenTagNullCheck(null,"{name}",null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,"{name}",null)
       resultStatus: 2
-      duration: 0.0001875
+      duration: 0.000215
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2540,7 +2540,7 @@ MonoBehaviour:
       name: BasicReplacementWithGivenTagNullCheck(null,null,null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,null,null)
       resultStatus: 2
-      duration: 0.0001914
+      duration: 0.0002124
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2567,7 +2567,7 @@ MonoBehaviour:
       name: BasicReplacementWithGivenTagVerifyEmptyTag
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagVerifyEmptyTag
       resultStatus: 2
-      duration: 0.0041303
+      duration: 0.006747
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -2585,7 +2585,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagVerifyEmptyTag("Hello
         {name}","","Bidule")
       resultStatus: 2
-      duration: 0.0004716
+      duration: 0.0005179
       messages: "  Expected: <System.ArgumentException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass4_0.<BasicReplacementWithGivenTagVerifyEmptyTag>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2612,7 +2612,7 @@ MonoBehaviour:
       name: MultipleTagReplacement
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacement
       resultStatus: 2
-      duration: 0.0043594
+      duration: 0.0057142
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -2633,7 +2633,7 @@ MonoBehaviour:
         {name}, I'm {age} YO",System.String[],System.String[],"I'm Bidule, I'm 42
         YO")
       resultStatus: 2
-      duration: 0.000293
+      duration: 0.0003653
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
@@ -2657,7 +2657,7 @@ MonoBehaviour:
       name: MultipleTagReplacementMustContainsAsManyTagsAsReplacement
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement
       resultStatus: 2
-      duration: 0.0045678
+      duration: 0.0056869
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -2676,7 +2676,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement("I'm
         {name}, I'm {age} YO",System.String[],System.String[])
       resultStatus: 2
-      duration: 0.0007766
+      duration: 0.0005671
       messages: "  Expected: <System.ArgumentException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass7_0.<MultipleTagReplacementMustContainsAsManyTagsAsReplacement>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2706,7 +2706,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement("I'm
         {name}, I'm {age} YO",System.String[],System.String[] GeneratedTestCase2)
       resultStatus: 2
-      duration: 0.0002185
+      duration: 0.0002736
       messages: "  Expected: <System.ArgumentException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass7_0.<MultipleTagReplacementMustContainsAsManyTagsAsReplacement>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2733,7 +2733,7 @@ MonoBehaviour:
       name: MultipleTagReplacementNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck
       resultStatus: 2
-      duration: 0.0048541
+      duration: 0.0066961
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -2749,7 +2749,7 @@ MonoBehaviour:
       name: MultipleTagReplacementNullCheck(null,System.String[],System.String[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck(null,System.String[],System.String[])
       resultStatus: 2
-      duration: 0.0004556
+      duration: 0.0005321
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass6_0.<MultipleTagReplacementNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2778,7 +2778,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck("I'm
         {name}, I'm {age} YO",null,System.String[])
       resultStatus: 2
-      duration: 0.0002027
+      duration: 0.0002287
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass6_0.<MultipleTagReplacementNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2807,7 +2807,7 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck("I'm
         {name}, I'm {age} YO",System.String[],null)
       resultStatus: 2
-      duration: 0.0001952
+      duration: 0.000218
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
         The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass6_0.<MultipleTagReplacementNullCheck>b__0
         () [0x00000] in C:\\Users\\adves\\Documents\\Unity Projects\\ControleUnityPOO\\ControleUnityPOO\\Assets\\_FightSystem\\_TestsUnitaires\\Level
@@ -2833,9 +2833,9 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2][suite]
       name: Level_2
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2
-      resultStatus: 2
-      duration: 0.0314083
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.0366392
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -2849,9 +2849,9 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests][suite]
       name: CharacterTests
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests
-      resultStatus: 2
-      duration: 0.0165219
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.0118842
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -2866,7 +2866,7 @@ MonoBehaviour:
       name: CharacterConstructor
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterConstructor
       resultStatus: 1
-      duration: 0.0072236
+      duration: 0.0014353
       messages: 
       output: 
       stacktrace: 
@@ -2882,15 +2882,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/CharacterTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterEquipped]
       name: CharacterEquipped
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterEquipped
-      resultStatus: 2
-      duration: 0.0014417
-      messages: "  Expected: 100\r\n  But was:  200\r\n"
+      resultStatus: 1
+      duration: 0.0007818
+      messages: 
       output: 
-      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterEquipped
-        () [0x00096] in C:\Users\adves\Documents\Unity Projects\ControleUnityPOO\ControleUnityPOO\Assets\_FightSystem\_TestsUnitaires\Level
-        2\CharacterTests.cs:54
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2904,7 +2900,7 @@ MonoBehaviour:
       name: CharacterEquippedNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterEquippedNullCheck
       resultStatus: 1
-      duration: 0.0002609
+      duration: 0.0002671
       messages: 
       output: 
       stacktrace: 
@@ -2921,7 +2917,7 @@ MonoBehaviour:
       name: CharacterEquippedReceivePunch
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterEquippedReceivePunch
       resultStatus: 1
-      duration: 0.0010746
+      duration: 0.000778
       messages: 
       output: 
       stacktrace: 
@@ -2938,7 +2934,7 @@ MonoBehaviour:
       name: CharacterReceivePunch
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterReceivePunch
       resultStatus: 1
-      duration: 0.0003253
+      duration: 0.0003738
       messages: 
       output: 
       stacktrace: 
@@ -2955,7 +2951,7 @@ MonoBehaviour:
       name: CreateFightNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CreateFightNullCheck
       resultStatus: 1
-      duration: 0.0002652
+      duration: 0.0002716
       messages: 
       output: 
       stacktrace: 
@@ -2972,7 +2968,7 @@ MonoBehaviour:
       name: EquipmentConstructor
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.EquipmentConstructor
       resultStatus: 1
-      duration: 0.0001742
+      duration: 0.0002065
       messages: 
       output: 
       stacktrace: 
@@ -2989,7 +2985,7 @@ MonoBehaviour:
       name: FightConstructor
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightConstructor
       resultStatus: 1
-      duration: 0.0002327
+      duration: 0.0002152
       messages: 
       output: 
       stacktrace: 
@@ -3006,15 +3002,42 @@ MonoBehaviour:
       name: FightWithOneShotTurn
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightWithOneShotTurn
       resultStatus: 1
-      duration: 0.0037437
+      duration: 0.001667
       messages: 
       output: '100
 
-        1000
+        5040
 
         0
 
-        1000
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests][suite]
+    - id: 1010
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/CharacterTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightWithOneTurn]
+      name: FightWithOneTurn
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightWithOneTurn
+      resultStatus: 1
+      duration: 0.0028638
+      messages: 
+      output: '100
+
+        80
+
+        20
+
+        90
+
+        70
+
+        20
 
 '
       stacktrace: 
@@ -3031,7 +3054,7 @@ MonoBehaviour:
       name: FightMoreTests
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests
       resultStatus: 1
-      duration: 0.0110403
+      duration: 0.0182788
       messages: 
       output: 
       stacktrace: 
@@ -3042,29 +3065,12 @@ MonoBehaviour:
       categories: []
       parentId: 1122
       parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2][suite]
-    - id: 1019
-      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/FightMoreTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.EquipmentStrengthWeaknesses]
-      name: EquipmentStrengthWeaknesses
-      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.EquipmentStrengthWeaknesses
-      resultStatus: 1
-      duration: 0.0001531
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1011
-      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests][suite]
     - id: 1012
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/FightMoreTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.HealDoesntOverflowMaxHP]
       name: HealDoesntOverflowMaxHP
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.HealDoesntOverflowMaxHP
       resultStatus: 1
-      duration: 0.0013829
+      duration: 0.0017252
       messages: 
       output: 
       stacktrace: 
@@ -3081,7 +3087,7 @@ MonoBehaviour:
       name: HealNegativeHP
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.HealNegativeHP
       resultStatus: 1
-      duration: 0.0002147
+      duration: 0.0002923
       messages: 
       output: 
       stacktrace: 
@@ -3098,7 +3104,7 @@ MonoBehaviour:
       name: LowerMaxHPReduceCurrentHP
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.LowerMaxHPReduceCurrentHP
       resultStatus: 1
-      duration: 0.0002001
+      duration: 0.0004233
       messages: 
       output: 
       stacktrace: 
@@ -3115,7 +3121,7 @@ MonoBehaviour:
       name: PokemonStatusBurnDamage
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.PokemonStatusBurnDamage
       resultStatus: 1
-      duration: 0.0000629
+      duration: 0.000604
       messages: 
       output: 
       stacktrace: 
@@ -3132,9 +3138,15 @@ MonoBehaviour:
       name: PokemonStatusCrazyDamage
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.PokemonStatusCrazyDamage
       resultStatus: 1
-      duration: 0.0000578
+      duration: 0.0023701
       messages: 
-      output: 
+      output: '100
+
+        70
+
+        30
+
+'
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -3149,23 +3161,19 @@ MonoBehaviour:
       name: PokemonStatusSleepDontAttack
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.PokemonStatusSleepDontAttack
       resultStatus: 1
-      duration: 0.0034231
+      duration: 0.0030175
       messages: 
       output: '100
 
-        100
+        80
+
+        20
+
+        20
+
+        80
 
         0
-
-        100
-
-        0
-
-        100
-
-        0
-
-        100
 
 '
       stacktrace: 
@@ -3182,9 +3190,15 @@ MonoBehaviour:
       name: PriorityEquipment
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.PriorityEquipment
       resultStatus: 1
-      duration: 0.0000832
+      duration: 0.0019822
       messages: 
-      output: 
+      output: '100
+
+        100060
+
+        0
+
+'
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -3194,47 +3208,26 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1011
       parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests][suite]
-    - id: 1018
-      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/FightMoreTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.StrengthWeaknesses]
-      name: StrengthWeaknesses
-      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.StrengthWeaknesses
-      resultStatus: 1
-      duration: 0.0000592
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1011
-      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests][suite]
-    m_ResultText: 'PokemonStatusSleepDontAttack (0,003s)
+    m_ResultText: 'FightWithOneTurn (0,003s)
 
       ---
 
       100
 
-      100
+      80
 
-      0
+      20
 
-      100
+      90
 
-      0
+      70
 
-      100
-
-      0
-
-      100'
+      20'
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fae355b3
-      m_LastClickedID: -1286216710
+      m_SelectedIDs: 92aefd72
+      m_LastClickedID: 1929227922
       m_ExpandedIDs: 91b31f8cd79cbc8efe0c3696c841eb9b0cb21a9c300d44b922267fc8cc9770d955fc1ee2abe076e3d5f285e4325989f49a16fcf5e557abf7a401b6f93ded90fca1357c04f4d4b405c4064e06e34987325cfd90383e6cef3d27b858406538b342291d7b443a619c4543af29471a9eb34a742ccb4ab04e8456b66d7f6c98cea67c751a9b7dffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -3292,8 +3285,7 @@ MonoBehaviour:
     m_SaveData: []
   m_SearchFilter:
     m_NameFilter: 
-    m_ClassNames:
-    - Punch
+    m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_VersionControlStates: []
@@ -3304,22 +3296,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/_FightSystem/Level 2
     m_Globs: []
-    m_OriginalText: 't: Punch'
+    m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/_FightSystem/Level 2
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\adves\Documents\Unity Projects\ControleUnityPOO\ControleUnityPOO
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ba940000
-    m_LastClickedID: 38074
-    m_ExpandedIDs: 00000000d6580000
+    m_SelectedIDs: b05a0000
+    m_LastClickedID: 23216
+    m_ExpandedIDs: 00000000d6580000925a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3372,9 +3364,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 90280000
-    m_LastClickedInstanceID: 10384
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: ec140000
+    m_LastClickedInstanceID: 5356
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -3438,7 +3430,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 5356
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
@@ -3477,9 +3469,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: ec140000
       m_LastClickedID: 0
-      m_ExpandedIDs: c0f2ffff02f8ffff2efbffff
+      m_ExpandedIDs: 92adfeff98aefeff60b1feff94b5feff1ab9feff20bafeffccbcfeff4ac0feff62c0feffe6c1fefffec1feffeac2feffd4c3feffdac4feffe6c7feff8acdfeff2ad0fefff4d2feffa0d5feffa6d6feff3cdafeffc4dcfeff64e2feffa0e8fefffeeafeffb6edfeffbceefeff32f1feff74f4feff7af5feff26f8fefffcfbfefffefefeff9001ffff9602ffff2805fffff007fffff608fffffc09ffffa80cffff540fffff5a10ffffaa14ffffb015ffff501bffff561cffffa620ffff2e23fffffa2bffff1c2dffff8831ffff8e32ffff3a35ffff4036ffffbc3dffffd441ffff1243ffff1844ffff3e45ffffce47ffffd448ffffb84bffff664effff4a51ffff5052ffff5653ffffca55ffff5c58ffffec5affff605dffff665effff2e61ffff3462ffffc064ffff52a3fffffea5ffffc6a8ffff4aabffff88acffff36baffffc6bcffff40c3ffffb6c5ffff9ac8ffff9aebffff4aeeffffa0f1ffff88f4fffffef6ffff2cf9ffff2efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

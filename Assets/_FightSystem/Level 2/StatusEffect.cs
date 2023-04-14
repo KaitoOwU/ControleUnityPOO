@@ -64,9 +64,14 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         /// Méthode enclenché par le système de combat à la fin de chaque tour
         /// Vous pouvez ajouter du contenu si besoin
         /// </summary>
-        public virtual void EndTurn()
+        public virtual void EndTurn(Character _character)
         {
+            _character.Damage(DamageEachTurn);
             RemainingTurn--;
+            if(RemainingTurn <= 0)
+            {
+                _character.CurrentStatus = null;
+            }
         }
     }
 
@@ -95,7 +100,7 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
     /// </summary>
     public class CrazyStatus : StatusEffect
     {
-        public CrazyStatus() : base(1, 0, false, 0.3f)
+        public CrazyStatus() : base(1, 0, true, 0.3f)
         {
         }
     }

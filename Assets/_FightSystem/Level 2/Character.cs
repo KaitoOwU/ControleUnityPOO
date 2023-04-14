@@ -120,7 +120,7 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         /// <summary>
         /// null si pas de status
         /// </summary>
-        public StatusEffect CurrentStatus { get; private set; }
+        public StatusEffect CurrentStatus { get; set; }
 
         public bool IsAlive => CurrentHealth > 0;
 
@@ -158,9 +158,23 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
                 throw new ArgumentNullException("launcher", "This variable is null");
             }
 
-            if (launcher.CurrentStatus is not null && !launcher.CurrentStatus.CanAttack) return;
+            if (launcher.CurrentStatus is not null)
+            {
+                if (!launcher.CurrentStatus.CanAttack)
+                {
+                    return;
+                }
 
-            CurrentHealth = Math.Clamp(CurrentHealth - (s.Power * launcher.Attack - Defense), 0, MaxHealth);
+                if (launcher.CurrentStatus.DamageOnAttack > 0f)
+                {
+                    launcher.Damage((int) ((s.Power + launcher.Attack - Defense) * launcher.CurrentStatus.DamageOnAttack));
+                }
+            }
+
+            UnityEngine.Debug.Log(CurrentHealth);
+            UnityEngine.Debug.Log((s.Power + Math.Clamp(launcher.Attack - Defense, 0, int.MaxValue)));
+            CurrentHealth = Math.Clamp(CurrentHealth - (s.Power + Math.Clamp(launcher.Attack - Defense, 0, int.MaxValue)), 0, MaxHealth);
+            UnityEngine.Debug.Log(CurrentHealth);
 
             if (s.Status != StatusPotential.NONE && CurrentStatus is null)
             {
@@ -180,7 +194,6 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
             }
 
             CurrentEquipment = newEquipment;
-            CurrentHealth += CurrentEquipment.BonusHealth;
         }
         /// <summary>
         /// Desequipe l'objet en cours au personnage
@@ -188,7 +201,7 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         public void Unequip()
         {
             CurrentEquipment = null;
-            if(MaxHealth < CurrentHealth)
+            if(CurrentHealth > MaxHealth)
             {
                 CurrentHealth = MaxHealth;
             }
@@ -202,6 +215,14 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
             if (amount <= 0) throw new ArgumentException("Value cannot be under or equal 0", "amount");
 
             CurrentHealth = Math.Clamp(CurrentHealth + amount, 0, MaxHealth);
+        }
+
+        /// <summary>
+        /// Enlève un certain nombre de HP sans avoir à passer par l'instanciation d'une attaque
+        /// </summary>
+        public void Damage(int amount)
+        {
+            CurrentHealth = Math.Clamp(CurrentHealth - amount, 0, MaxHealth);
         }
 
     }

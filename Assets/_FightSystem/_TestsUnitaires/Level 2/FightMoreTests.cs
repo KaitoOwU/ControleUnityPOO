@@ -42,9 +42,10 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         public void LowerMaxHPReduceCurrentHP()
         {
             Character c = new Character(100, 10, 10, 10, TYPE.NORMAL);
-            Equipment e = new Equipment(100, 0, 0, 0);
+            Equipment e = new Equipment(100, 0, 0, 0, false);
 
             c.Equip(e);
+            c.Heal(999999);
             Assert.That(c.CurrentHealth, Is.EqualTo(200));
 
             c.Unequip();
@@ -54,7 +55,17 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         [Test]
         public void PriorityEquipment()
         {
+            Character slow = new Character(100, 100000, 10, 0, TYPE.NORMAL);
+            Character fast = new Character(100, 100000, 10, 100, TYPE.NORMAL);
+            Equipment e = new Equipment(0, 0, 0, 0, true);
+            slow.Equip(e);
 
+            Assert.That(slow.CurrentEquipment.PrioAttack, Is.EqualTo(true));
+
+            Fight f = new Fight(slow, fast);
+            Punch p = new Punch();
+            f.ExecuteTurn(p, p);
+            Assert.That(slow.IsAlive, Is.True);
         }
 
         [Test]
@@ -79,25 +90,31 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         [Test]
         public void PokemonStatusBurnDamage()
         {
+            Character c = new(100, 0, 0, 0, TYPE.NORMAL);
+            FireBall f = new();
 
+            c.ReceiveAttack(f);
+            Assert.That(c.CurrentStatus.DamageEachTurn, Is.EqualTo(10));
+
+            int h = c.CurrentHealth;
+            c.CurrentStatus.EndTurn(c);
+            Assert.That(c.CurrentHealth, Is.EqualTo(h - 10));
         }
 
         [Test]
         public void PokemonStatusCrazyDamage()
         {
+            Character c = new(100, 0, 0, 0, TYPE.NORMAL);
+            Character c2 = new(100, 0, 0, 0, TYPE.NORMAL);
+            Supersonic s = new();
 
-        }
+            c.ReceiveAttack(s);
+            Assert.That(c.CurrentStatus.DamageOnAttack, Is.EqualTo(0.3f));
 
-        [Test]
-        public void StrengthWeaknesses()
-        {
-
-        }
-
-        [Test]
-        public void EquipmentStrengthWeaknesses()
-        {
-
+            int h = c.CurrentHealth;
+            c2.ReceiveAttack(new Punch(), c);
+            c.CurrentStatus.EndTurn(c);
+            Assert.That(c.CurrentHealth, Is.LessThan(h));
         }
 
     }

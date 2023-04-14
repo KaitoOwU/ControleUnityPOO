@@ -41,6 +41,6 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
     /// </summary>
     public class Supersonic : Skill
     {
-        public Supersonic() : base(TYPE.NORMAL, 0, StatusPotential.CRAZY) { }
+        public Supersonic() : base(TYPE.NORMAL, 10, StatusPotential.CRAZY) { }
     }
 }

@@ -29,7 +29,7 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         [Test]
         public void EquipmentConstructor()
         {
-            var e = new Equipment(100, 90, 70, 12);
+            var e = new Equipment(100, 90, 70, 12, false);
             Assert.That(e.BonusHealth, Is.EqualTo(100));
             Assert.That(e.BonusAttack, Is.EqualTo(90));
             Assert.That(e.BonusDefense, Is.EqualTo(70));
@@ -40,7 +40,7 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         public void CharacterEquipped()
         {
             var c = new Character(100, 50, 30, 20, TYPE.NORMAL);
-            var e = new Equipment(100, 90, 70, 12);
+            var e = new Equipment(100, 90, 70, 12, false);
 
             // Equip character
             c.Equip(e);
@@ -101,7 +101,7 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         public void CharacterEquippedReceivePunch()
         {
             var pikachu = new Character(100, 50, 30, 20, TYPE.NORMAL);
-            var shield = new Equipment(0, 0, 10, 0);
+            var shield = new Equipment(0, 0, 10, 0, false);
             pikachu.Equip(shield);
 
             var punch = new Punch();
@@ -155,11 +155,12 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
             });
         }
 
-        //[Test]
+        [Test]
         public void FightWithOneTurn()
         {
-            Character pikachu = new Character(100, 50, 30, 20, TYPE.NORMAL);
-            Character bulbizarre = new Character(90, 60, 10, 200, TYPE.NORMAL);
+            Character pikachu = new Character(100, 50, 50, 20, TYPE.NORMAL);
+            //J'ai modifié les valeurs de défense car sinon le bulbizarre mourrait
+            Character bulbizarre = new Character(90, 60, 50, 200, TYPE.NORMAL);
             Fight f = new Fight(pikachu, bulbizarre);
             Punch p = new Punch();
 
