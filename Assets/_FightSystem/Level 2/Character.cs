@@ -30,6 +30,25 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         /// </summary>
         TYPE _baseType;
 
+        //
+        public int Level { get; private set; }
+        public int Experience { get; private set; }
+        public int MaxExperience { get; private set; }
+
+        private const int BaseExperienceToNextLevel = 100;
+        public int MaxLevel { get; set; }
+        public bool MaxLevelReached { get; set; }
+        public int ExperiencePoints { get; set; }
+        public int ExperienceToNextLevel { get; set; }
+        
+        public Character(int level, int experience, int maxExperience)
+        {
+            Level = level;
+            Experience = experience;
+            MaxExperience = maxExperience;
+        }
+        //
+
         public Character(int baseHealth, int baseAttack, int baseDefense, int baseSpeed, TYPE baseType)
         {
             _baseHealth = baseHealth;
@@ -39,7 +58,15 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
             _baseType = baseType;
 
             CurrentHealth = baseHealth;
+
+            //
+            Level = 1;
+            ExperiencePoints = 0;
+            ExperienceToNextLevel = BaseExperienceToNextLevel;
+            //
         }
+
+
         /// <summary>
         /// HP actuel du personnage
         /// </summary>
@@ -223,6 +250,45 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         public void Damage(int amount)
         {
             CurrentHealth = Math.Clamp(CurrentHealth - amount, 0, MaxHealth);
+        }
+
+        public void GainExperience(int experience)
+        {
+            if (experience <= 0)
+            {
+                return;
+            }
+
+            ExperiencePoints += experience;
+
+            MaxLevelReached = (Level >= MaxLevel);
+
+            if (!MaxLevelReached && ExperiencePoints >= ExperienceToNextLevel)
+            {
+                Level++;
+
+                ExperienceToNextLevel = Level * 100;
+
+                if (ExperiencePoints > ExperienceToNextLevel)
+                {
+                    var remainingExperience = ExperiencePoints - ExperienceToNextLevel;
+                    GainExperience(remainingExperience);
+                }
+            }
+            else if (MaxLevelReached)
+            {
+            }
+        }
+
+        private int ComputeMaxExperience(int level)
+        {
+            // calculer la valeur maxExperience en fonction du niveau
+            return (int)Math.Pow(level, 3);
+        }
+
+        public void SetMaxLevel(int maxLevel)
+        {
+            MaxLevel = maxLevel;
         }
 
     }

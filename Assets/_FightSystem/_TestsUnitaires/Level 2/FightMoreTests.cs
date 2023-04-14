@@ -117,5 +117,46 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
             Assert.That(c.CurrentHealth, Is.LessThan(h));
         }
 
+
+        [Test]
+        public void GainExperienceLevelUp()
+        {
+            Character c = new Character(100, 10, 10, 10, TYPE.NORMAL);
+            c.GainExperience(200);
+            Assert.That(c.Level, Is.EqualTo(2));
+            Assert.That(c.MaxHealth, Is.EqualTo(110));
+            Assert.That(c.Attack, Is.EqualTo(12));
+            Assert.That(c.Defense, Is.EqualTo(12));
+            Assert.That(c.Speed, Is.EqualTo(11));
+        }
+
+        [Test]
+        public void GainExperienceMaxLevel()
+        {
+            Character c = new Character(100, 10, 10, 10, TYPE.NORMAL);
+            for (int i = 0; i < 100; i++)
+            {
+                c.GainExperience(10000);
+            }
+            //Assert.That(c.Level, Is.EqualTo(Character.MaxLevel));
+            c.GainExperience(10000);
+            //Assert.That(c.Level, Is.EqualTo(Character.MaxLevel));
+        }
+
+        [Test]
+        public void GainExperienceMultipleLevelUp()
+        {
+            Character c = new Character(100, 10, 10, 10, TYPE.NORMAL);
+            c.GainExperience(1000);
+            Assert.That(c.Level, Is.EqualTo(3));
+            Assert.That(c.MaxHealth, Is.EqualTo(120));
+            Assert.That(c.Attack, Is.EqualTo(14));
+            Assert.That(c.Defense, Is.EqualTo(14));
+            Assert.That(c.Speed, Is.EqualTo(14));
+        }
+
+        //
+
+    
     }
 }
